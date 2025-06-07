@@ -138,15 +138,11 @@
       },
       "morning": {
         "default": "Hvað myndirðu vilja horfa á þessum morgni?",
-        "extra": [
-          "Ég heyrði að Before Sunrise sé góð"
-        ]
+        "extra": ["Ég heyrði að Before Sunrise sé góð"]
       },
       "night": {
         "default": "Hvað myndirðu vilja horfa á í nótt?",
-        "extra": [
-          "Þreytt? Ég heyrði að The Exorcist sé góð."
-        ]
+        "extra": ["Þreytt? Ég heyrði að The Exorcist sé góð."]
       }
     }
   },

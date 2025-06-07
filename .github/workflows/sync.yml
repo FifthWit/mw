@@ -1,5 +1,5 @@
 name: Sync fork
-  
+
 permissions:
   contents: write
 

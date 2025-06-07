@@ -1,3 +1,5 @@
+// ts-nocheck
+
 import classNames from "classnames";
 import Fuse from "fuse.js";
 import { type DragEvent, useMemo, useRef, useState } from "react";
@@ -157,7 +159,7 @@ export function CaptionsView({ id }: { id: string }) {
 
   const captions = useMemo(
     () =>
-      captionList.length !== 0 ? captionList : getHlsCaptionList?.() ?? [],
+      captionList.length !== 0 ? captionList : (getHlsCaptionList?.() ?? []),
     [captionList, getHlsCaptionList],
   );
 

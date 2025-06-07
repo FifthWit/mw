@@ -138,15 +138,11 @@
       },
       "morning": {
         "default": "Co chciałbyś obejrzeć dziś rano?",
-        "extra": [
-          "Słyszałem że „Przed wschodem słońca” jest dobre"
-        ]
+        "extra": ["Słyszałem że „Przed wschodem słońca” jest dobre"]
       },
       "night": {
         "default": "Co chciałbyś obejrzeć dziś wieczorem?",
-        "extra": [
-          "Zmęczony? Słyszałem że „Egzorcysta” jest dobry."
-        ]
+        "extra": ["Zmęczony? Słyszałem że „Egzorcysta” jest dobry."]
       }
     }
   },

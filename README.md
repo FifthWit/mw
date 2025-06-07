@@ -1,4 +1,3 @@
-
 <p align="center"><img align="center" width="280" src="./.github/logo-dark.svg#gh-dark-mode-only"/></p>
 <p align="center"><img align="center" width="280" src="./.github/logo-light.svg#gh-light-mode-only"/></p>
 <p align="center">
@@ -38,6 +37,7 @@ Content is fetched from third parties and scraping is fully done on the client. 
 # 🧬 Running locally for development
 
 To run locally, you must first clone the repository. After that run the following commands in the root of the repository:
+
 ```bash
 pnpm install
 pnpm run dev
@@ -46,6 +46,7 @@ pnpm run dev
 You have to also make an `.env` file to configure your environment. Inspire it from the content of `example.env`.
 
 To build production files, run:
+
 ```bash
 pnpm build
 ```
@@ -57,11 +58,11 @@ pnpm build
 
 A simple guide has been written to assist in hosting your own instance of movie-web. Check it out below
 
-|[Selfhosting guide](https://movie-web.github.io/docs)|
-|---|
+| [Selfhosting guide](https://movie-web.github.io/docs) |
+| ----------------------------------------------------- |
 
 ## 🤝 Thanks to all Contributors
+
 This project would not be possible without our amazing contributors and the community. Thanks a lot! Keep rocking 🍻.
 
 [![Contributors](https://contrib.rocks/image?repo=movie-web/movie-web)](https://github.com/movie-web/movie-web/graphs/contributors)
-

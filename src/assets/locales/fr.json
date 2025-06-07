@@ -138,9 +138,7 @@
       },
       "morning": {
         "default": "Que voulez-vous regarder ce matin ?",
-        "extra": [
-          "Les films, c'est comme les voyages : ça nous ouvre l'esprit"
-        ]
+        "extra": ["Les films, c'est comme les voyages : ça nous ouvre l'esprit"]
       },
       "night": {
         "default": "Que voulez-vous regarder ce soir ?",

@@ -131,15 +131,11 @@
       },
       "morning": {
         "default": "Sáng nay bạn muốn coi gì?",
-        "extra": [
-          "Tôi nghe nói rằng bộ phim Before Sunrise hay đấy"
-        ]
+        "extra": ["Tôi nghe nói rằng bộ phim Before Sunrise hay đấy"]
       },
       "night": {
         "default": "Đêm nay bạn muốn coi gì?",
-        "extra": [
-          "Cảm thấy mệt? Tôi nghe nói phim The Exorcist hay đấy."
-        ]
+        "extra": ["Cảm thấy mệt? Tôi nghe nói phim The Exorcist hay đấy."]
       }
     }
   },

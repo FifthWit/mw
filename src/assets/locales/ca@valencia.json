@@ -138,15 +138,11 @@
       },
       "morning": {
         "default": "Què vos agradaria mirar este matí?",
-        "extra": [
-          "He sentit que «Abans de l'alba» és bona"
-        ]
+        "extra": ["He sentit que «Abans de l'alba» és bona"]
       },
       "night": {
         "default": "Què vos agradaria mirar esta nit?",
-        "extra": [
-          "Esteu cansat? He sentit que «L'exorcista» és bona."
-        ]
+        "extra": ["Esteu cansat? He sentit que «L'exorcista» és bona."]
       }
     }
   },

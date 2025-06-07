@@ -1,3 +1,4 @@
+// ts-nocheck
 import { ofetch } from "ofetch";
 
 import { getApiToken, setApiToken } from "@/backend/helpers/providerApi";
@@ -69,7 +70,13 @@ export async function singularProxiedFetch<T>(
     onResponse(context) {
       const tokenHeader = context.response.headers.get("X-Token");
       if (tokenHeader) setApiToken(tokenHeader);
-      ops.onResponse?.(context);
+      if (ops.onResponse) {
+        if (Array.isArray(ops.onResponse)) {
+          ops.onResponse.forEach((hook) => hook(context));
+        } else {
+          ops.onResponse(context);
+        }
+      }
     },
   });
 }

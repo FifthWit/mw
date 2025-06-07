@@ -138,15 +138,11 @@
       },
       "morning": {
         "default": "Apa yang ingin Anda tonton pagi ini?",
-        "extra": [
-          "Saya dengar film Before Sunrise bagus"
-        ]
+        "extra": ["Saya dengar film Before Sunrise bagus"]
       },
       "night": {
         "default": "Apa yang ingin Anda tonton malam ini?",
-        "extra": [
-          "Capek? Saya dengar The Exocist bagus."
-        ]
+        "extra": ["Capek? Saya dengar The Exocist bagus."]
       }
     }
   },

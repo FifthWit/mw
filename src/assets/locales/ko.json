@@ -138,15 +138,11 @@
       },
       "morning": {
         "default": "오늘 아침에 무엇을 보고 싶으신가요?",
-        "extra": [
-          "Before Sunrise가 좋다고 들었어요"
-        ]
+        "extra": ["Before Sunrise가 좋다고 들었어요"]
       },
       "night": {
         "default": "오늘 밤에 무엇을 보고 싶으신가요?",
-        "extra": [
-          "피곤하신가요? The Exorcist가 좋다고 들었어요."
-        ]
+        "extra": ["피곤하신가요? The Exorcist가 좋다고 들었어요."]
       }
     }
   },
